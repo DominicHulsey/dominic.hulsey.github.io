@@ -1,0 +1,69 @@
+.FlexWrap {
+	display:flex;
+	height:100vh;
+	max-width:100vw;
+	overflow:hidden;
+  font-family:Montserrat;
+  background-size:cover;
+}
+
+.full-overlay{
+display:flex;
+  background-color:rgba(46, 46, 46, 0.434);
+  background-size: cover;
+  height:100vh;
+  width:100vw;
+    flex-direction:column;
+      align-items: center;
+  justify-content: center;
+}
+
+div.full-overlay > * + button.ScrollButton{
+  margin-bottom:10vh;
+}
+
+.TextWrap {
+	font-size:50px;
+  color:white;
+  text-shadow:1px 1px black;
+  text-align:center;
+}
+
+.homepic {
+background-image:url('https://www.dropbox.com/s/s09jog7da1iskfc/33523232461_5597adbcc5_k%20%28edited-Pixlr%29%20%28edited-Pixlr%29.jpg?raw=1');
+}
+
+.ScrollButton {
+ color:white;
+ font-size:20px;
+	background-color:transparent;
+	text-align:center;
+	border: solid white;
+  padding:5px 5px 5px 5px;
+  text-shadow:black;
+  transition: all .5s ease;
+}
+
+.ScrollButton:hover{
+		background-color: #38A1F3;
+	}
+
+.ScrollButton:hover i{
+  transform: rotate(90deg);
+  }
+  
+@media screen and (max-width: 695px) and (min-width:576px) {
+	.overlay-text {
+		font-size:40px;
+	}
+}
+
+@media screen and  (max-width:575px) {
+
+	.overlay-text {
+		font-size:30px;
+	}
+}
+
+
+
