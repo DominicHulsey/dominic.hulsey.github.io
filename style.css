@@ -19,7 +19,7 @@ display:flex;
 }
 
 div.full-overlay > * + button.ScrollButton{
-  margin-bottom:10vh;
+  margin-bottom:15vh;
 }
 
 .TextWrap {
@@ -42,14 +42,22 @@ background-image:url('https://www.dropbox.com/s/s09jog7da1iskfc/33523232461_5597
   padding:5px 5px 5px 5px;
   text-shadow:black;
   transition: all .5s ease;
+  margin-top:3vh;
+
 }
 
 .ScrollButton:hover{
-		background-color: #38A1F3;
-	}
+    background-color: #38A1F3;
+  }
+  
+  .fas.fa-angle-double-right {
+      transform: rotate(0deg);
+    transition: all .5s ease;
+  }
 
 .ScrollButton:hover i{
   transform: rotate(90deg);
+    transition: all .5s ease;
   }
   
 @media screen and (max-width: 695px) and (min-width:576px) {
@@ -59,7 +67,6 @@ background-image:url('https://www.dropbox.com/s/s09jog7da1iskfc/33523232461_5597
 }
 
 @media screen and  (max-width:575px) {
-
 	.overlay-text {
 		font-size:30px;
 	}
