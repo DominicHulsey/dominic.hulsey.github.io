@@ -11,6 +11,10 @@
   background-size:cover;
 }
 
+img {
+  object-fit:contain;
+}
+
 .full-overlay{
   display:flex;
   background-color:rgba(46, 46, 46, 0.434);
