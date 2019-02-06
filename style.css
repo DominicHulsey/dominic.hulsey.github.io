@@ -11,6 +11,10 @@
   background-size:cover;
 }
 
+.SizeImage {
+  height:15vw;
+}
+
 img {
   object-fit:contain;
 }
