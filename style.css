@@ -51,7 +51,7 @@ background-image:url('https://www.dropbox.com/s/s09jog7da1iskfc/33523232461_5597
 	background-color:transparent;
 	text-align:center;
 	border: solid white;
-  padding:5px 5px 5px 5px;
+  padding:10px;
   text-shadow:black;
   transition: all .5s ease;
   margin-top:3vh;
@@ -62,9 +62,10 @@ background-image:url('https://www.dropbox.com/s/s09jog7da1iskfc/33523232461_5597
     background-color: #38A1F3;
   }
   
-  .fas.fa-angle-double-right {
+  .fas.fa-arrow-right {
       transform: rotate(0deg);
     transition: all .5s ease;
+    padding-left:5px;
   }
 
 .ScrollButton:hover i{
